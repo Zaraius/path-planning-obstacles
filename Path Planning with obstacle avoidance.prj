@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="893484683" file="C:\Users\zbilimoria\MatLab Drive\qeaPathPlanning\Path Planning with obstacle avoidance.prj" location="C:\Users\zbilimoria\MatLab Drive\qeaPathPlanning" name="Path Planning with obstacle avoidance" target="target.mlapps" target-name="Package App">
+    <param.appname>Path Planning with obstacle avoidance</param.appname>
+    <param.authnamewatermark>Zaraius Bilimoria and Sammy Socol</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>QEA2 final project</param.description>
+    <param.screenshot>C:\Users\zbilimoria\AppData\Local\Temp\tpbf18c515_941a_40c5_a282_7316516c0dad.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>8274369c-a450-4caa-95a1-c0f154c2c59b</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\a_star_algorithm.m</file>
+      <file>${PROJECT_ROOT}\approximate_gradient.m</file>
+      <file>${PROJECT_ROOT}\find_dist.m</file>
+      <file>${PROJECT_ROOT}\find_lengths.m</file>
+      <file>${PROJECT_ROOT}\generate_shape_predictionAPP.m</file>
+      <file>${PROJECT_ROOT}\obstacle_constraints.m</file>
+      <file>${PROJECT_ROOT}\path_cost_function.m</file>
+      <file>${PROJECT_ROOT}\path_planning_fmincon.m</file>
+      <file>${PROJECT_ROOT}\point_to_segment_distance.m</file>
+      <file>${PROJECT_ROOT}\run_gradient_descent.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\zbilimoria\MatLab Drive" name="qeaPathPlanning" optional="false">C:\Users\zbilimoria\MatLab Drive\qeaPathPlanning</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
